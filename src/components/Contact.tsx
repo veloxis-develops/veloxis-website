@@ -10,7 +10,7 @@ export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [state, submitToFormspree] = useForm("xbdaeqvn");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     submitToFormspree(e);
     setSubmitted(true);
