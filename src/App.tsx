@@ -9,9 +9,9 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 
 // Import your project main files
-import INotebook from '../project1aistudy/src/App'; 
-import TextToUI from '../project2text2ui/src/App'; 
-import FinSense from '../project3finsize/src/App'; 
+// import INotebook from '../project1aistudy/src/App'; 
+// import TextToUI from '../project2text2ui/src/App'; 
+// import FinSense from '../project3finsize/src/App'; 
 
 function App() {
   return (
