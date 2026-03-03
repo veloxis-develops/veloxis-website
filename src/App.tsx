@@ -9,9 +9,9 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 
 // Import your project main files
-// import INotebook from '../project1aistudy/src/App'; 
-// import TextToUI from '../project2text2ui/src/App'; 
-// import FinSense from '../project3finsize/src/App'; 
+// import INotebook from '../ARCHIEVE/project1aistudy/src/App'; 
+// import TextToUI from '../ARCHIEVE/project2text2ui/src/App'; 
+// import FinSense from '../ARCHIEVE/project3finsize/src/App'; 
 
 function App() {
   return (
@@ -33,9 +33,9 @@ function App() {
         } />
 
         {/* Individual Project Pages */}
-        <Route path="/projects/inotebook" element={<INotebook />} />
+        {/* <Route path="/projects/inotebook" element={<INotebook />} />
         <Route path="/projects/text-to-ui" element={<TextToUI />} />
-        <Route path="/projects/finsense" element={<FinSense />} />
+        <Route path="/projects/finsense" element={<FinSense />} /> */}
       </Routes>
     </BrowserRouter>
   );

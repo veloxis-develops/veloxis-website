@@ -79,7 +79,7 @@ export const PROJECTS = [
     metric: "100%",
     metricLabel: "retention focus",
     image: "/images/inotebook.jpeg", // Replace with a screenshot of your iNotebook
-    link: "/projects/inotebook" 
+    link: "https://project-1-liard-xi.vercel.app/" 
   },
   {
     title: "AI Text-to-UI Generator",
@@ -89,7 +89,7 @@ export const PROJECTS = [
     metric: "0s",
     metricLabel: "manual coding",
     image: "/images/Texttoui.jpeg", // Replace with a screenshot of your UI Gen
-    link: "/projects/text-to-ui"
+    link: "https://project-2-theta-cyan.vercel.app/"
   },
   {
     title: "FinSense Analyzer",
@@ -99,7 +99,7 @@ export const PROJECTS = [
     metric: "0.0-1.0",
     metricLabel: "confidence score",
     image: "/images/finsense.jpeg", // Replace with a screenshot of FinSense
-    link: "/projects/finsense"
+    link: "https://project-3-drab-gamma.vercel.app/"
   }
 ] as const;
 
