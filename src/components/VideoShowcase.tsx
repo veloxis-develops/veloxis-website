@@ -90,7 +90,8 @@ export default function VideoShowcase() {
                 onEnded={() => setPlaying(false)}
               >
                 {/* Replace src with your actual demo video */}
-                <source src="/public/9e51263e876ec8600f65cda5a5cb0e7acaadedc3b12e739cf6ea7a6d32c3ebfb_1080p.mp4" type="video/mp4" />
+                <source src="/9e51263e876ec8600f65cda5a5cb0e7acaadedc3b12e739cf6ea7a6d32c3ebfb_1080p.mp4" type="video/mp4" />
+                <a href="/9e51263e876ec8600f65cda5a5cb0e7acaadedc3b12e739cf6ea7a6d32c3ebfb_1080p.mp4"></a>
                 Your browser does not support the video tag.
               </video>
 
